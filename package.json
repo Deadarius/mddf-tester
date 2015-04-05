@@ -1,0 +1,37 @@
+{
+  "name": "mddf-tester",
+  "version": "0.0.1",
+  "description": "Temporary mddf tester using mddf-viewer module",
+  "main": "index.html",
+  "dependencies": {
+    "mddf": "^1.3.0",
+    "mddf-viewer": "^0.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.7",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.1.0",
+    "run-sequence": "^1.0.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deadarius",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Deadarius/mddf-tester.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Deadarius/mddf-tester/issues"
+  },
+  "keywords": [
+    "mddf",
+    "webgl",
+    "browser"
+  ]
+}
